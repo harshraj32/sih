@@ -1,0 +1,16 @@
+{
+    "log": ["*"],
+    "databases": {
+        "example": {
+            "server": "walrus:",
+            "users": { "GUEST": { "disabled": false, "admin_channels": ["*"] } },
+            "allow_empty_password": true
+        }
+    },
+    "CORS": {
+        "Origin": ["http://127.0.0.1:8801"],
+        "LoginOrigin": ["http://127.0.0.1:8801"],
+        "Headers": ["Content-Type"],
+        "MaxAge": 17280000
+    }
+}
